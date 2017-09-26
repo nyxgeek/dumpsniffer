@@ -9,19 +9,21 @@ tools for analyzing strings from password lists
 
 ### overview
 
-this project is meant to look at one password dump (or any text file) at a time. There is a settings.conf file that contains the path to the file to be searched.
+this project is meant to look at one password dump (or any text file) at a time. There is a dumpsniffer.conf file that contains the path to the password dump to be searched.
 
 
-The results are stored in their raw form under the following directory structures:
+The search results are stored in their raw form under the following directory structures:
 ```
 ./db/
 ./db/a/
 ./db/a/aardvark.out.txt
+./db/a/awesome.out.txt
 ./db/b/bitcoin.out.txt
 ./db/c/computer.out.txt
 ...
 
 ```
+
 
 Using the filesystem to hold data was chosen over a traditional db because this allows the easy viewing and editing of the results. This allows you to manually parse and remove false-positive results using tools like 'grep'.
 
