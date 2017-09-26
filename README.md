@@ -134,7 +134,9 @@ This is a list of the URLs/resources listed in the slide deck
 
 PDF of slide deck
 
-
+---
 
 ### thanks!
 thanks for all the feedback! also special thanks to whoever it was at DerbyCon that recommended the dog icon after my talk.
+
+@nyxgeek
