@@ -14,11 +14,11 @@ this project is meant to look at one password dump (or any text file) at a time.
 
 The results are stored in their raw form under the following directory structures:
 ```
-./logs/db/
-./logs/db/a/
-./logs/db/a/aardvark.out.txt
-./logs/db/b/bitcoin.out.txt
-./logs/db/c/computer.out.txt
+./db/
+./db/a/
+./db/a/aardvark.out.txt
+./db/b/bitcoin.out.txt
+./db/c/computer.out.txt
 ...
 
 ```
