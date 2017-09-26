@@ -33,6 +33,17 @@ https://hashes.org/public.php
 
 Check out the 'found' column.
 
+You can automagically download and clean the Troy Hunt dump using the included script 'getcleanwordlist.sh'
+
+```
+./getcleanwordlist.sh
+```
+
+***Please consider donating to hashes.org***
+
+They're an awesome resource.  You can find the donation link at the bottom of this page:
+
+https://hashes.org/index.php
 
 ---
 
@@ -84,7 +95,11 @@ usage:
 ```
 
 
-#### setup.sh
-creates directories and pulls down hash list
-- creates log folder to store results in (useful if you want to test another list - just rename the 'logs' or 'logs/db' folder
-- prompts to download latest Have I Been Pwned solved hashes list from hashes.org
+#### getcleanwordlist.sh
+
+```
+usage:
+./getcleanwordlist.sh
+```
+
+That's it. It downloads and cleans the wordlist a little (trims lines longer than 24 char and removes non-ASCII). Outputs it to 
