@@ -94,6 +94,26 @@ usage:
 
 ```
 
+#### createregex.sh
+
+```
+usage:
+./createregex.sh file.txt > file.regex
+
+Read line "testing":
+
+[tT+7][eE3][sS$5][tT+7][iI1!|][nN][gG69]
+```
+
+give this script a file with one word/phrase per line and it will convert output it as leetspeak regex
+
+
+This can then be used with grep in the following manner:
+
+```
+grep -E -f file.regex file_to_search.txt
+```
+
 
 #### getcleanwordlist.sh
 
@@ -103,3 +123,18 @@ usage:
 ```
 
 That's it. It downloads and cleans the wordlist a little (trims lines longer than 24 char and removes non-ASCII). Outputs it to 
+
+
+#### resources.md
+
+This is a list of the URLs/resources listed in the slide deck
+
+
+#### DerbyCon_7.0_100_Million_Secrets.pdf
+
+PDF of slide deck
+
+
+
+### thanks!
+thanks for all the feedback! also special thanks to whoever it was at DerbyCon that recommended the dog icon after my talk.
