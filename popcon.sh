@@ -4,6 +4,13 @@
 DUMPFILE=`grep DUMPFILE dumpsniff.conf | cut -d\= -f2-`
 TMPFILE=`grep TMPFILE dumpsniff.conf | cut -d\= -f2-`
 
+
+if ! [ -e "./db/a" ]; then
+	echo "Could not find db folder - creating a new folder structure."
+	mkdir ./db;for i in {a..z}; do mkdir ./db/$i; done
+fi
+
+
 if ! [ -e "$DUMPFILE" ]; then
 	echo "Dump file not found, would you like to download and clean the Troy Hunt dump from hashes.org? (y/n)"
 	echo "Warning: this WILL take a while"
@@ -34,6 +41,7 @@ fi
 if [ -e "$TMPFILE" ]; then
 	rm "$TMPFILE"
 fi
+
 
 
 RESULTSARRAY=()
