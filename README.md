@@ -30,15 +30,14 @@ Using the filesystem to hold data was chosen over a traditional db because this 
 ---
 ### derbycon 7.0 talk info
 
-The DerbyCon 7.0 (2017) slide deck can be found here:
+The DerbyCon 7.0 (2017) slide deck can be found here:<BR> https://github.com/nyxgeek/dumpsniffer/raw/master/DerbyCon_Files/DerbyCon7.0_100MillionSecrets.pdf
 
-https://github.com/nyxgeek/dumpsniffer/raw/master/DerbyCon_Files/DerbyCon7.0_100MillionSecrets.pdf
-
-The video can be found here:
-
-http://www.irongeek.com/i.php?page=videos/derbycon7/s31-statistics-on-100-million-secrets-a-look-at-recent-password-dumps-nyxgeek
+The video can be found here:<BR> http://www.irongeek.com/i.php?page=videos/derbycon7/s31-statistics-on-100-million-secrets-a-look-at-recent-password-dumps-nyxgeek
 
 (youtube here: https://www.youtube.com/watch?v=DHpbEl27sdQ )
+
+
+Resources listed in slide deck can be found here:<BR> https://github.com/nyxgeek/dumpsniffer/blob/master/DerbyCon_Files/resources.md
 
 ---
 
