@@ -127,14 +127,20 @@ usage:
 That's it. It downloads and cleans the wordlist a little (trims lines longer than 24 char and removes non-ASCII). Outputs it to 
 
 
-#### resources.md
+#### DerbyCon_Files folder
+
+##### DerbyCon_7.0_100_Million_Secrets.pdf
+
+PDF of slide deck
+
+#### cleverbrute_create.sh
+
+script to turn a wordlist into two wordlists to be used in CLEVERBRUTE attack method
+
+##### resources.md
 
 This is a list of the URLs/resources listed in the slide deck
 
-
-#### DerbyCon_7.0_100_Million_Secrets.pdf
-
-PDF of slide deck
 
 ---
 
