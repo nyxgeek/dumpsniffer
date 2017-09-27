@@ -29,9 +29,9 @@ or
 
 ### overview
 
-- this project is meant to look at one password dump (or any text file) at a time. If you want to start again, just rename the ./db folder to something else.
-
-There is a dumpsniff.conf file that contains the path to the password dump to be searched.
+- this project is meant to look at one password dump (or any text file) at a time. 
+- If you want to start again, just rename the ./db folder to something else.
+- There is a dumpsniff.conf file that contains the path to the password dump to be searched.
 
 
 The search results are stored in their raw form under the following directory structures:
@@ -45,7 +45,6 @@ The search results are stored in their raw form under the following directory st
 ...
 
 ```
-
 
 Using the filesystem to hold data was chosen over a traditional db because this allows the easy viewing and editing of the results. This allows you to manually parse and remove false-positive results using tools like 'grep'.
 
