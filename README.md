@@ -28,6 +28,19 @@ The search results are stored in their raw form under the following directory st
 Using the filesystem to hold data was chosen over a traditional db because this allows the easy viewing and editing of the results. This allows you to manually parse and remove false-positive results using tools like 'grep'.
 
 ---
+### derbycon 7.0 talk info
+
+The DerbyCon 7.0 (2017) slide deck can be found here:
+
+https://github.com/nyxgeek/dumpsniffer/raw/master/DerbyCon_Files/DerbyCon7.0_100MillionSecrets.pdf
+
+The video can be found here:
+
+http://www.irongeek.com/i.php?page=videos/derbycon7/s31-statistics-on-100-million-secrets-a-look-at-recent-password-dumps-nyxgeek
+
+(youtube here: https://www.youtube.com/watch?v=DHpbEl27sdQ )
+
+---
 
 ### where to find passwords in plaintext:
 
