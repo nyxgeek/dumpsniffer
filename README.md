@@ -5,7 +5,7 @@ tools for analyzing strings from password lists
 
 ![image of dog sniffing](https://i.imgur.com/4TubOtW.png?1)
 
-### quick start / setup
+### quickstart / setup
 
 ```
 git clone https://github.com/nyxgeek/dumpsniffer.git
@@ -14,10 +14,9 @@ cd dumpsniffer;chmod +x *.sh
 
 ./getcleanwordlist.sh
 ```
-this will download a wordlist to use
+this will download cracked passwords from Troy Hunt's public dump, via hashes.org  (The wordlist source file can be changed in  ./dumpsniff.conf)
 
-
-then:
+once a wordlist is in place:
 ```
 ./popcon.sh baseball basketball football
 ```
