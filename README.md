@@ -9,7 +9,7 @@ tools for analyzing strings from password lists
 
 ### overview
 
-this project is meant to look at one password dump (or any text file) at a time. There is a dumpsniffer.conf file that contains the path to the password dump to be searched.
+this project is meant to look at one password dump (or any text file) at a time. There is a dumpsniff.conf file that contains the path to the password dump to be searched.
 
 
 The search results are stored in their raw form under the following directory structures:
@@ -55,7 +55,7 @@ You can automagically download and clean the Troy Hunt dump using the included s
 
 ***Please consider donating to hashes.org***
 
-They're an awesome resource.  You can find the donation link at the bottom of this page:
+I'm not affiliated with them in any way, don't know them, but they're an awesome resource.  You can find the donation link at the bottom of this page:
 
 https://hashes.org/index.php
 
@@ -70,7 +70,7 @@ https://hashes.org/index.php
 
 Popularity Contest: compare popularity of keywords or phrases
 
-note: if a word is already in the db, it won't be searhed again
+note: if a word is already in the db, it won't be searched again
 
 ```
 usage:
