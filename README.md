@@ -124,7 +124,7 @@ usage:
 ./getcleanwordlist.sh
 ```
 
-That's it. It downloads and cleans the wordlist a little (trims lines longer than 24 char and removes non-ASCII). Outputs it to 
+That's it. It downloads and cleans the wordlist a little (trims lines longer than 24 char and removes non-ASCII).
 
 
 #### DerbyCon_Files folder
@@ -136,6 +136,24 @@ PDF of slide deck
 #### cleverbrute_create.sh
 
 script to turn a wordlist into two wordlists to be used in CLEVERBRUTE attack method
+
+```
+usage:
+./cleverbrute_create.sh wordlist.txt
+
+Making HEAD file...	file written to /current/path/HEAD.out  -  Total lines: 21
+Making TAIL file...	file written to /current/path/TAIL.out  -  Total lines: 24
+
+Example (first 5 lines):
+
+HEAD.out			  TAIL.out
+--------			  --------
+1234				    !!!!
+12345				    !!!!n
+123456				    !!!!ni
+Spri				    !710
+Sprin				    !7102
+```
 
 ##### resources.md
 
