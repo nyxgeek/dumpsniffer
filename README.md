@@ -5,11 +5,34 @@ tools for analyzing strings from password lists
 
 ![image of dog sniffing](https://i.imgur.com/4TubOtW.png?1)
 
+### quick start / setup
 
+```
+git clone https://github.com/nyxgeek/dumpsniffer.git
+
+cd dumpsniffer;chmod +x *.sh 
+
+./getcleanwordlist.sh
+```
+this will download a wordlist to use
+
+
+then:
+```
+./popcon.sh baseball basketball football
+```
+or 
+```
+./viewresults.sh hacktheplanet
+```
+
+---
 
 ### overview
 
-this project is meant to look at one password dump (or any text file) at a time. There is a dumpsniff.conf file that contains the path to the password dump to be searched.
+- this project is meant to look at one password dump (or any text file) at a time. If you want to start again, just rename the ./db folder to something else.
+
+There is a dumpsniff.conf file that contains the path to the password dump to be searched.
 
 
 The search results are stored in their raw form under the following directory structures:
@@ -40,6 +63,7 @@ The video can be found here:<BR> http://www.irongeek.com/i.php?page=videos/derby
 Resources listed in slide deck can be found here:<BR> https://github.com/nyxgeek/dumpsniffer/blob/master/DerbyCon_Files/resources.md
 
 ---
+
 
 ### where to find passwords in plaintext:
 
